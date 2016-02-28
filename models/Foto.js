@@ -9,6 +9,7 @@ var Foto = new Schema({
     temperatura   : Number,
     presion       : Number,
     distancia     : Number,
+    tamano        : Number,
     fechaCaptura : { type: Date, default: Date.now }
 });
 
